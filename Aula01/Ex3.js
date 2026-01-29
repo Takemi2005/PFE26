@@ -1,0 +1,15 @@
+
+let nome = prompt("Digite o nome do contato:");
+    
+    // Remove espaços no início e fim, e converte para maiúsculas
+    const nomeLimpo = nome.trim().toUpperCase();
+    
+    // Bônus: contar quantas palavras o nome possui
+    const quantidadePalavras = nomeLimpo.split(' ').length;
+    
+    alert(`Nome formatado: ${nomeLimpo}`);
+    alert(`Quantidade de palavras: ${quantidadePalavras}`);
+    
+  
+
+
