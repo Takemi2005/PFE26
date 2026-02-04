@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura Dinâmico</title>
+    <link rel="stylesheet" href="Exe1.css">
+   
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Temperatura</h1>
+        <input type="number" id="celsius" placeholder="Digite a temperatura em °C" step="0.1">
+        <button onclick="converterTemperatura()">Converter</button>
+        <div id="resultado"></div>
+    </div>
+
+    <script>
+        function converterTemperatura() {
+            const celsius = parseFloat(document.getElementById("celsius").value);
+            
+            if (isNaN(celsius)) {
+                document.getElementById("resultado").textContent = "Por favor, digite um valor válido.";
+                return;
+            }
+
+            const fahrenheit = celsius * 1.8 + 32;
+            document.getElementById("resultado").textContent = `${celsius}°C = ${fahrenheit.toFixed(2)}°F`;
+
+            if (fahrenheit > 80) {
+                document.body.style.backgroundColor = "coral";
+            } else {
+                document.body.style.backgroundColor = "lightskyblue";
+            }
+        }
+    </script>
+</body>
+</html>
