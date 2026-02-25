@@ -3,15 +3,17 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    display: grid;
+    grid-template-columns: 3;
+    align-items: center;
 }
 .nome1{
-    height: 600px;
+    height: 700px;
     width: 800px;
     background-color: aquamarine; 
-    display: flex;
-   justify-content: center;
+    display: grid;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
 
 }
 
@@ -20,9 +22,11 @@ body{
     width: 700px;
     background-color: burlywood;
     border: 2px solid black;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
+    justify-content: center;
+    justify-items: center;
 }
 
 .nome3{
@@ -30,10 +34,11 @@ body{
     width: 700px;
     background-color: chartreuse;
     border: 2px solid black;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    
+    justify-content: center;
+    justify-items: center;  
 }
 
 .nome4{
@@ -41,15 +46,18 @@ body{
     width: 700px;
     background-color: cadetblue;
     border: 2px solid black;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    
+    justify-content: center;
+    justify-items: center; 
 }
 
 .nome5{
-    height: 80px;
+    height: 90px;
     width: 90px;
     background-color: coral;
     border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
