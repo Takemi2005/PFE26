@@ -43,11 +43,11 @@
     <div class="nav-item"><span class="icon">👍</span> Vídeos curtidos</div>
     <div class="nav-divider"></div>
     <div class="nav-section-title">Inscrições</div>
-    <div class="nav-item"><span class="icon">🎮</span> GamingBR</div>
-    <div class="nav-item"><span class="icon">🍕</span> Tasty Brasil</div>
-    <div class="nav-item"><span class="icon">💻</span> Dev & Code</div>
-    <div class="nav-item"><span class="icon">🎵</span> Música Hits</div>
-    <div class="nav-item"><span class="icon">⚽</span> Futebol Total</div>
+    <div class="nav-item"><span class="icon">🎮</span> LARAVEL</div>
+    <div class="nav-item"><span class="icon">🍕</span> Nutry</div>
+    <div class="nav-item"><span class="icon">💻</span> TI</div>
+    <div class="nav-item"><span class="icon">🎵</span> Hits</div>
+    <div class="nav-item"><span class="icon">⚽</span> Bola</div>
     <div class="nav-divider"></div>
     <div class="nav-item"><span class="icon">⚙️</span> Configurações</div>
     <div class="nav-item"><span class="icon">🚩</span> Reportar</div>
@@ -158,21 +158,21 @@
 <script>
 // ── DATA ─────────────────────────────────────────────────────────────────────
 const reelsData = [
-  { emoji:'🎮', bg:'linear-gradient(160deg,#1a1a2e,#16213e,#0f3460)', channel:'GamingBR', avatarBg:'#0f3460', avatarText:'G', desc:'Esse truque no CS2 vai te fazer subir de rank em 1 semana 😱🔥 Aprende aqui!', likes:'42K', comments:'3.2K', shares:'890', song:'🎵 Phonk Hits Vol.3 · DriftWave' },
-  { emoji:'🍕', bg:'linear-gradient(160deg,#2d1b69,#11998e)', channel:'Tasty Brasil', avatarBg:'#11998e', avatarText:'T', desc:'Pizza de 4 queijos em 60 segundos! Receita fácil e incrível 🍕✨', likes:'8.3K', comments:'541', shares:'1.1K', song:'🎵 Acoustic Chill · Lofi Café' },
-  { emoji:'💻', bg:'linear-gradient(160deg,#f7971e,#ffd200)', channel:'Dev & Code', avatarBg:'#f7971e', avatarText:'D', desc:'5 extensões do VS Code que TODO dev deveria usar 💻 Salva esse vídeo!', likes:'15K', comments:'2.8K', shares:'4.4K', song:'🎵 Lo-fi Focus · CodeBeats' },
-  { emoji:'🎵', bg:'linear-gradient(160deg,#e96c7b,#b721ff)', channel:'Música Hits', avatarBg:'#b721ff', avatarText:'M', desc:'Esse beat foi produzido em apenas 30 minutos! Você acredita? 🎹🔥', likes:'102K', comments:'12K', shares:'34K', song:'🎵 Original Beat · MusicaHits' },
-  { emoji:'⚽', bg:'linear-gradient(160deg,#134e5e,#71b280)', channel:'Futebol Total', avatarBg:'#71b280', avatarText:'F', desc:'O gol mais impossível da história! Ninguém acreditou quando aconteceu 😤⚽', likes:'23K', comments:'4.1K', shares:'9.9K', song:'🎵 Stadium Anthems · SportsFM' },
-  { emoji:'🚀', bg:'linear-gradient(160deg,#c94b4b,#4b134f)', channel:'Ciência ao Vivo', avatarBg:'#c94b4b', avatarText:'C', desc:'Lançamento de foguete em câmera ultra lenta — imagens NUNCA vistas antes 🚀🌌', likes:'31K', comments:'1.7K', shares:'6.2K', song:'🎵 Space Ambient · CosmicSounds' },
+  { emoji:'🎮', bg:'linear-gradient(160deg,#1a1a2e,#16213e,#0f3460)', channel:'LARAVEL', avatarBg:'#0f3460', avatarText:'G', desc:'Esse truque no CS2 vai te fazer subir de rank em 1 semana 😱🔥 Aprende aqui!', likes:'42K', comments:'3.2K', shares:'890', song:'🎵 Phonk Hits Vol.3 · DriftWave' },
+  { emoji:'🍕', bg:'linear-gradient(160deg,#2d1b69,#11998e)', channel:'Nutry', avatarBg:'#11998e', avatarText:'T', desc:'Pizza de 4 queijos em 60 segundos! Receita fácil e incrível 🍕✨', likes:'8.3K', comments:'541', shares:'1.1K', song:'🎵 Acoustic Chill · Lofi Café' },
+  { emoji:'💻', bg:'linear-gradient(160deg,#f7971e,#ffd200)', channel:'TI', avatarBg:'#f7971e', avatarText:'D', desc:'5 extensões do VS Code que TODO dev deveria usar 💻 Salva esse vídeo!', likes:'15K', comments:'2.8K', shares:'4.4K', song:'🎵 Lo-fi Focus · CodeBeats' },
+  { emoji:'🎵', bg:'linear-gradient(160deg,#e96c7b,#b721ff)', channel:'Hits', avatarBg:'#b721ff', avatarText:'M', desc:'Esse beat foi produzido em apenas 30 minutos! Você acredita? 🎹🔥', likes:'102K', comments:'12K', shares:'34K', song:'🎵 Original Beat · MusicaHits' },
+  { emoji:'⚽', bg:'linear-gradient(160deg,#134e5e,#71b280)', channel:'BOLA', avatarBg:'#71b280', avatarText:'F', desc:'O gol mais impossível da história! Ninguém acreditou quando aconteceu 😤⚽', likes:'23K', comments:'4.1K', shares:'9.9K', song:'🎵 Stadium Anthems · SportsFM' },
+  { emoji:'🚀', bg:'linear-gradient(160deg,#c94b4b,#4b134f)', channel:'DEV', avatarBg:'#c94b4b', avatarText:'C', desc:'Lançamento de foguete em câmera ultra lenta — imagens NUNCA vistas antes 🚀🌌', likes:'31K', comments:'1.7K', shares:'6.2K', song:'🎵 Space Ambient · CosmicSounds' },
 ];
 
 const videosData = [
-  { emoji:'🎮', bg:'#1a1a2e', ch:'GamingBR', chBg:'#0f3460', chT:'G', title:'GUIA COMPLETO: Como dominar CS2 em 2024 — Do iniciante ao pro', views:'1.2M', time:'3 dias atrás', duration:'18:42' },
-  { emoji:'🍕', bg:'#11998e', ch:'Tasty Brasil', chBg:'#11998e', chT:'T', title:'10 receitas italianas que você PRECISA aprender este verão', views:'890K', time:'1 semana atrás', duration:'22:15' },
-  { emoji:'💻', bg:'#f7971e', ch:'Dev & Code', chBg:'#f7971e', chT:'D', title:'Aprenda React em 3 horas — Curso COMPLETO para iniciantes 2024', views:'2.4M', time:'2 semanas atrás', duration:'3:04:22' },
-  { emoji:'🎵', bg:'#b721ff', ch:'Música Hits', chBg:'#b721ff', chT:'M', title:'Os 50 maiores hits do funk brasileiro — Playlist especial 2024', views:'5.1M', time:'5 dias atrás', duration:'2:14:08' },
-  { emoji:'⚽', bg:'#71b280', ch:'Futebol Total', chBg:'#71b280', chT:'F', title:'Análise tática: Os maiores times do mundo e seus esquemas em 2024', views:'743K', time:'1 dia atrás', duration:'45:30' },
-  { emoji:'🚀', bg:'#4b134f', ch:'Ciência ao Vivo', chBg:'#c94b4b', chT:'C', title:'SpaceX e o futuro da exploração espacial — Documentário completo', views:'3.8M', time:'4 dias atrás', duration:'1:12:45' },
+  { emoji:'🎮', bg:'#1a1a2e', ch:'LARAVEL', chBg:'#0f3460', chT:'G', title:'GUIA COMPLETO: Como dominar CS2 em 2024 — Do iniciante ao pro', views:'1.2M', time:'3 dias atrás', duration:'18:42' },
+  { emoji:'🍕', bg:'#11998e', ch:'Nutry', chBg:'#11998e', chT:'T', title:'10 receitas italianas que você PRECISA aprender este verão', views:'890K', time:'1 semana atrás', duration:'22:15' },
+  { emoji:'💻', bg:'#f7971e', ch:'TI', chBg:'#f7971e', chT:'D', title:'Aprenda React em 3 horas — Curso COMPLETO para iniciantes 2024', views:'2.4M', time:'2 semanas atrás', duration:'3:04:22' },
+  { emoji:'🎵', bg:'#b721ff', ch:'Hits', chBg:'#b721ff', chT:'M', title:'Os 50 maiores hits do funk brasileiro — Playlist especial 2024', views:'5.1M', time:'5 dias atrás', duration:'2:14:08' },
+  { emoji:'⚽', bg:'#71b280', ch:'BOLA', chBg:'#71b280', chT:'F', title:'Análise tática: Os maiores times do mundo e seus esquemas em 2024', views:'743K', time:'1 dia atrás', duration:'45:30' },
+  { emoji:'🚀', bg:'#4b134f', ch:'DEV', chBg:'#c94b4b', chT:'C', title:'SpaceX e o futuro da exploração espacial — Documentário completo', views:'3.8M', time:'4 dias atrás', duration:'1:12:45' },
 ];
 
 // ── RENDER VIDEOS ────────────────────────────────────────────────────────────
