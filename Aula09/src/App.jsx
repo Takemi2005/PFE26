@@ -20,6 +20,7 @@ const App = () => {
   return (
     <div style={styles.container}>
       <header>
+        <img src="favicon.png" alt="Ícone onclick" style={{ width: '50px', height: '50px', marginBottom: '10px' }} />
         <h1>🌿 Aula Interativa: Fotossíntese</h1>
         <p>Clique nos botões abaixo para entender como as plantas produzem seu próprio alimento.</p>
       </header>
